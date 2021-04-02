@@ -19,12 +19,16 @@ body{
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 36px;
     text-transform: uppercase;
     font-weight: bold;
     color: #B9F5FD;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #B9F5FD;
+    max-width: 80%;
+    position: relative;
 }
-
 /*===============================
 
 
@@ -85,14 +89,31 @@ header nav {
 
 .member_card h3 {
     color: #B9F5FD;
+    position: absolute;
+}
+
+.member_card {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.member_card p {
+    color: #C38CF5;
 }
 
 .member_img {
     border: 3px solid #C38CF5;
     max-width: 250px;
     padding: 15px;
+    position: relative;
+    float: right;
+    margin: 64px;
 }
 
 .member_info {
     color: #C38CF5;
+    position: absolute;
+    max-width: 20%;
+    bottom: -430px;
+    text-align: justify;
 }
