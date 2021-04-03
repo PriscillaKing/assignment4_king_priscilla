@@ -90,6 +90,10 @@ header nav li {
     margin: 0px 16px;
 }
 
+header nav li:hover {
+  color: #B9F5FD;
+}
+
 header nav {
     top: 162px;
     right: 144px;
@@ -126,12 +130,15 @@ header {
 *===============================*/
 .song_titles {
     color: white;
-    background-color: #C38CF5;
     text-align: center;
     max-width: 100%;
-    z-index: 3;
+    z-index: 5;
     position: relative;
     overflow: hidden;
+}
+
+.song_titles h2:hover{
+  color: #B9F5FD;
 }
 
 .song_titles h2 {
@@ -163,8 +170,8 @@ header {
     left: 53px;
     z-index: 3;
     overflow: hidden;
+    background-color: #C38CF5;
 }
-
 
 /*===============================
 
@@ -180,21 +187,27 @@ header {
   float: right;
   margin: 0px 60px;
   max-width: 17%;
-  overflow: hidden;
 }
 
 
 .member_img {
     border: 3px solid #C38CF5;
-    max-width: 250px;
+    width: 250px;
     padding: 15px;
-    overflow: hidden;
+    transition: 1s;
+}
+
+.member_img:hover {
+  transform: rotatey(180deg);
+  transition: 2s;
 }
 
 .member_card h3 {
     color: #B9F5FD;
-    position: absolute;
-    display: none;
+    position: relative;
+    text-align: center;
+    max-width: 200px;
+    padding: 15px 0px 0px 0px;
 }
 
 .member_card p {
@@ -209,27 +222,6 @@ header {
   font-weight: bold;
   color: #B9F5FD
 }
-
-  .img_overlay {
-      text-align: center;
-      font-size: 24px;
-      color: #B9F5FD;
-      text-transform: uppercase;
-      background: black;
-      max-width: 18%;
-      padding: 158px 25px;
-      position: absolute;
-      transition: .3s;
-      display: none;
-      overflow: hidden;
-  }
-
-
-.member_img:hover .img_overlay{
-  display: contents;
-
-}
-
 
 /*===============================
 
