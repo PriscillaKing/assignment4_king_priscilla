@@ -7,48 +7,48 @@
 *===============================*/
 
 * {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-}
-
-body{
-  background: #17203E;
-  z-index: -5;
-}
-
-.pattern {
-    position: fixed;
-    opacity: .10;
-    top: 0;
-    max-width: 75%;
-    z-index: -1;
-    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 html {
     overflow-x: hidden;
 }
 
+body{
+    background: #17203E;
+    z-index: -5;
+}
+
+.pattern {
+    position: fixed;
+    top: 0;
+    max-width: 75%;
+    opacity: .10;
+    z-index: -1;
+    overflow: hidden;
+}
 
 h1 {
-    font-size: 36px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #B9F5FD;
-    text-align: center;
-    padding: 10px;
-    border: 3px solid #B9F5FD;
-    max-width: 80%;
     position: relative;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #B9F5FD;
+    border: 3px solid #B9F5FD;
+    padding: 10px;
+    max-width: 80%;
+
 }
 
 .section_titles {
+    position: relative;
     text-align: center;
     right: 0px;
-    position: relative;
     left: 150px;
     margin: 75px 0px 50px 0px;
     z-index: 5;
@@ -64,11 +64,11 @@ h1 {
 *===============================*/
 
 .hero-image {
+    position: relative;
     width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     top: -10px;
     border: 3px solid #C38CF5;
     padding: 0px 125px 55px;
@@ -91,25 +91,25 @@ header nav li {
 }
 
 header nav li:hover {
-  color: #B9F5FD;
+    color: #B9F5FD;
 }
 
 header nav {
+    position: absolute;
     top: 162px;
     right: 144px;
-    position: absolute;
 }
 
 header {
-  margin: 0px 0px 100px;
+    margin: 0px 0px 100px;
 }
 
 #rectangle {
+    position: absolute;
     width: 1200px;
     height: 126px;
     background: #B9F5FD;
     z-index: 1;
-    position: absolute;
     top: 12px;
     right: 161px;
     overflow: hidden;
@@ -129,25 +129,25 @@ header {
 
 *===============================*/
 .song_titles {
+    position: relative;
     color: white;
     text-align: center;
     max-width: 100%;
     z-index: 5;
-    position: relative;
     overflow: hidden;
 }
 
 .song_titles h2:hover{
-  color: #B9F5FD;
+    color: #B9F5FD;
 }
 
 .song_titles h2 {
-  display: inline-block;
-  padding: 50px;
-  text-transform: uppercase;
-  font-family: "Londrina Solid", fantasy;
-  font-size: 30px;
-  overflow: hidden;
+    display: inline-block;
+    padding: 50px;
+    text-transform: uppercase;
+    font-family: "Londrina Solid", fantasy;
+    font-size: 30px;
+    overflow: hidden;
 }
 
 .song_bg p {
@@ -162,9 +162,9 @@ header {
 }
 
 .song_bg {
+    position: absolute;
     display: inline-block;
     padding: 25px;
-    position: absolute;
     top: 383px;
     opacity: .80;
     left: 53px;
@@ -183,10 +183,10 @@ header {
 
 
 .member_card {
-  position: relative;
-  float: right;
-  margin: 0px 60px;
-  max-width: 17%;
+    position: relative;
+    float: right;
+    margin: 0px 60px;
+    max-width: 17%;
 }
 
 
@@ -198,29 +198,29 @@ header {
 }
 
 .member_img:hover {
-  transform: rotatey(180deg);
-  transition: 2s;
+    transform: rotatey(180deg);
+    transition: 2s;
 }
 
 .member_card h3 {
-    color: #B9F5FD;
     position: relative;
+    color: #B9F5FD;
     text-align: center;
-    max-width: 200px;
+    max-width: 250px;
     padding: 15px 0px 0px 0px;
 }
 
 .member_card p {
     color: #C38CF5;
     text-align: left;
-    max-width: 98%;
+    max-width: 99%;
     padding: 15px 0px;
     overflow: hidden;
 }
 
 .voice {
-  font-weight: bold;
-  color: #B9F5FD
+    font-weight: bold;
+    color: #B9F5FD
 }
 
 /*===============================
@@ -234,12 +234,12 @@ header {
 
 @keyframes beat {
   0% {
-    transform: scale(99%);
+    transform: scale(.98);
   }
   50% {
-      transform: scale(100%);
+      transform: scale(1);
   }
   100% {
-    transform: scale(99%);
+    transform: scale(.98);
   }
 }
