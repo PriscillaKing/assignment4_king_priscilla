@@ -104,8 +104,28 @@ header nav {
   display: inline-block;
   padding: 50px;
   text-transform: uppercase;
+  font-family: "Londrina Solid", fantasy;
+  font-size: 30px;
 }
 
+.song_bg p {
+    font-family: "Londrina Outline", fantasy;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 50px;
+    display: inline-block;
+}
+
+.song_bg {
+    display: inline-block;
+    padding: 25px;
+    position: absolute;
+    top: 383px;
+    opacity: .80;
+    left: 53px;
+}
 
 
 
