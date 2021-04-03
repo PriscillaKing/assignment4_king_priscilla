@@ -25,7 +25,13 @@ body{
     top: 0;
     max-width: 75%;
     z-index: -1;
+    overflow: hidden;
 }
+
+html {
+    overflow-x: hidden;
+}
+
 
 h1 {
     font-size: 36px;
@@ -46,6 +52,7 @@ h1 {
     left: 150px;
     margin: 100px 0px 50px 0px;
     z-index: 5;
+    overflow: hidden;
 }
 
 /*===============================
@@ -66,6 +73,7 @@ h1 {
     border: 3px solid #C38CF5;
     padding: 0px 125px 55px;
     z-index: 2;
+    overflow: hidden;
 }
 
 header nav li {
@@ -93,6 +101,7 @@ header nav {
     position: absolute;
     top: 12px;
     right: 161px;
+    overflow: hidden;
 }
 
 
@@ -110,6 +119,7 @@ header nav {
     max-width: 100%;
     z-index: 3;
     position: relative;
+    overflow: hidden;
 }
 
 .song_titles h2 {
@@ -118,6 +128,7 @@ header nav {
   text-transform: uppercase;
   font-family: "Londrina Solid", fantasy;
   font-size: 30px;
+  overflow: hidden;
 }
 
 .song_bg p {
@@ -128,6 +139,7 @@ header nav {
     text-transform: uppercase;
     padding: 0px 50px;
     display: inline-block;
+    overflow: hidden;
 }
 
 .song_bg {
@@ -138,6 +150,7 @@ header nav {
     opacity: .80;
     left: 53px;
     z-index: 3;
+    overflow: hidden;
 }
 
 
@@ -156,6 +169,7 @@ header nav {
   float: right;
   margin: 0px 60px;
   max-width: 17%;
+  overflow: hidden;
 }
 
 
@@ -163,6 +177,7 @@ header nav {
     border: 3px solid #C38CF5;
     max-width: 250px;
     padding: 15px;
+    overflow: hidden;
 }
 
 .member_card h3 {
@@ -176,6 +191,12 @@ header nav {
     text-align: left;
     max-width: 98%;
     padding: 15px 0px;
+    overflow: hidden;
+}
+
+.voice {
+  font-weight: bold;
+  color: #B9F5FD
 }
 
   .img_overlay {
@@ -189,6 +210,7 @@ header nav {
       position: absolute;
       transition: .3s;
       display: none;
+      overflow: hidden;
   }
 
 
