@@ -29,6 +29,15 @@ h1 {
     max-width: 80%;
     position: relative;
 }
+
+.section_titles {
+    text-align: center;
+    right: 0px;
+    position: relative;
+    left: 150px;
+    margin: 100px 0px 50px 0px;
+}
+
 /*===============================
 
 
@@ -38,14 +47,15 @@ h1 {
 *===============================*/
 
 .hero-image {
-    width: 90%;
+    width: 85%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -45px;
+    top: -10px;
     border: 3px solid #C38CF5;
-    padding: 0px 150px 75px;
+    padding: 0px 125px 55px;
+    z-index: 2;
 }
 
 header nav li {
@@ -60,10 +70,21 @@ header nav li {
 }
 
 header nav {
-    top: 287px;
+    top: 162px;
     right: 181px;
     position: absolute;
 }
+
+#rectangle {
+    width: 1200px;
+    height: 126px;
+    background: #B9F5FD;
+    z-index: 1;
+    position: absolute;
+    top: 12px;
+    right: 161px;
+}
+
 
 /*===============================
 
@@ -79,6 +100,15 @@ header nav {
     max-width: 100%;
 }
 
+.song_titles h2 {
+  display: inline-block;
+  padding: 50px;
+  text-transform: uppercase;
+}
+
+
+
+
 /*===============================
 
 
@@ -87,33 +117,50 @@ header nav {
 
 *===============================*/
 
-.member_card h3 {
-    color: #B9F5FD;
-    position: absolute;
-}
 
 .member_card {
-  padding-top: 75px;
-  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  float: right;
+  margin: 0px 60px;
+  max-width: 17%;
 }
 
-.member_card p {
-    color: #C38CF5;
-}
 
 .member_img {
     border: 3px solid #C38CF5;
     max-width: 250px;
     padding: 15px;
-    position: relative;
-    float: right;
-    margin: 64px;
 }
 
-.member_info {
-    color: #C38CF5;
+.member_card h3 {
+    color: #B9F5FD;
     position: absolute;
-    max-width: 20%;
-    bottom: -430px;
-    text-align: justify;
+    display: none;
+}
+
+.member_card p {
+    color: #C38CF5;
+    text-align: left;
+    max-width: 98%;
+    padding: 15px 0px;
+}
+
+  .img_overlay {
+      text-align: center;
+      font-size: 24px;
+      color: #B9F5FD;
+      text-transform: uppercase;
+      background: black;
+      max-width: 18%;
+      padding: 158px 25px;
+      position: absolute;
+      transition: .3s;
+      display: none;
+  }
+
+
+.member_img:hover .img_overlay{
+  display: contents;
+
 }
